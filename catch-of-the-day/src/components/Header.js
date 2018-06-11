@@ -1,6 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Header extends React.Component {
+    propTypes = {
+        tagline: PropTypes.string.isRequired
+    }
+
     render() {
         return (
             <header className="top">
